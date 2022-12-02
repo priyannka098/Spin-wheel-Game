@@ -4,7 +4,6 @@ import StartPage from "./Components/StartPage/StartPage";
 import GamePage from "./Components/GamePage/GamePage";
 import FinalPage from "./Components/FinalPage/FinalPage";
 
-
 function App() {
   return (
     <Routes>
