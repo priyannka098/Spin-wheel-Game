@@ -1,0 +1,34 @@
+.Game-Page-Container{
+    background-image: url(/src/Images/bg-img.png);
+
+  background-repeat:no-repeat;
+ background-size:cover;
+ background-position:center center;
+ background-attachment: fixed;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.spin{
+    
+    background-color: #146531;
+    color:white;
+    font-weight:700 ;
+    width: 7rem;
+    height:2.5rem;
+    border-radius: 2rem;
+    border:none;
+    margin-top:1.2rem;
+
+}
+.game-spin{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+    
+    

@@ -1,0 +1,113 @@
+.container{
+    background-image: url(/src/Images/bg-img.png);
+
+  background-repeat:no-repeat;
+ background-size:cover;
+ background-position:center center;
+ background-attachment: fixed;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.parent-div{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    height: 500px;
+    padding: 20px;
+    
+}
+.img-div{
+    width:60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.wheel-img{
+    height:24rem;
+}
+
+.check-box {
+    display: flex;
+   border: 1px solid black;
+   border-radius: 0.3rem;
+   padding:0.4rem;
+  }
+  .checkbox-label{
+    font-size: 0.65rem;
+  }
+  .check-size{
+    margin-right:0.5rem;
+    
+  }
+
+.login-div{
+    width:35%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.button{
+    background-color: #146531;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    height: 3.2rem;
+    width:100%;
+    font-weight: 700;
+    color:white;
+    border:none;
+}
+.terms{
+    font-size: 0.47rem;
+    font-style: italic;
+    
+}
+.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    font-weight: 'Poppins';
+    
+}
+.horizon-line{
+    color:0.3px solid black;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.2rem 0.2rem 0rem 0rem;
+    border-bottom: 1px solid #186532 !important;
+    border:none;
+    background-color: white;
+    height:3rem;
+
+}
+.heading-div{
+    display: flex;
+    flex-direction: column;
+   margin-bottom:0.5rem;
+
+}
+
+.unlucky{
+    font-size: 0.8rem;
+    font-weight:700;
+    margin-left: auto; 
+margin-right: 0;
+}
+.vertical-space
+{
+
+    margin-top:1rem;
+}
+
+.consent-box {
+    display: flex;
+    flex-direction: column;
+}
