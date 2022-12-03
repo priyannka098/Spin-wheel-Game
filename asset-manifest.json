@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Spin-wheel-Game/static/css/main.0c59782d.css",
-    "main.js": "/Spin-wheel-Game/static/js/main.ed8a52d9.js",
+    "main.css": "/Spin-wheel-Game/static/css/main.38282df9.css",
+    "main.js": "/Spin-wheel-Game/static/js/main.7dae4994.js",
     "static/js/787.e179c7ad.chunk.js": "/Spin-wheel-Game/static/js/787.e179c7ad.chunk.js",
-    "static/media/Screen2.png": "/Spin-wheel-Game/static/media/Screen2.4a2d47b7baf95d502a7b.png",
+    "static/media/Screen2.png": "/Spin-wheel-Game/static/media/Screen2.5687dc7ca5140ab594a6.png",
     "static/media/bg-img.png": "/Spin-wheel-Game/static/media/bg-img.0108e8ddeb0307479d23.png",
     "static/media/Screen3.png": "/Spin-wheel-Game/static/media/Screen3.19730a2d8aef04c2aafd.png",
     "static/media/wheel.png": "/Spin-wheel-Game/static/media/wheel.19730a2d8aef04c2aafd.png",
+    "static/media/tab-left-wheel.png": "/Spin-wheel-Game/static/media/tab-left-wheel.025ddce95d5015186cd9.png",
     "static/media/top-wheel.png": "/Spin-wheel-Game/static/media/top-wheel.57db63af6aedddb48bc0.png",
     "index.html": "/Spin-wheel-Game/index.html",
     "static/media/Poppins-VariableFont_wght.ttf": "/Spin-wheel-Game/static/media/Poppins-VariableFont_wght.31d6cfe0d16ae931b73c.ttf",
-    "main.0c59782d.css.map": "/Spin-wheel-Game/static/css/main.0c59782d.css.map",
-    "main.ed8a52d9.js.map": "/Spin-wheel-Game/static/js/main.ed8a52d9.js.map",
+    "main.38282df9.css.map": "/Spin-wheel-Game/static/css/main.38282df9.css.map",
+    "main.7dae4994.js.map": "/Spin-wheel-Game/static/js/main.7dae4994.js.map",
     "787.e179c7ad.chunk.js.map": "/Spin-wheel-Game/static/js/787.e179c7ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c59782d.css",
-    "static/js/main.ed8a52d9.js"
+    "static/css/main.38282df9.css",
+    "static/js/main.7dae4994.js"
   ]
 }
