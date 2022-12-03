@@ -61,7 +61,7 @@ function GamePage() {
     <div className="Game-Page-Container">
       <div className="game-spin">
         <div className="game-spin">
-        <img src={require("../../Images/Screen2.png")} className="wheel-img" id='wheel-spin'></img>
+        <img src={require("../../Images/Screen2.png")} className="sm:h-96 max-sm:h-64" id='wheel-spin'></img>
         <img src={require("../../Images/Union.png")} className="union"></img>
         </div>
     

@@ -9,6 +9,11 @@ function StartPage() {
   const navigate = useNavigate();
 
    const handleSubmit=(event)=>{ 
+    if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))|| email==="")
+    {
+      alert("Please enter a valid email");
+      return;
+    }
     const checkinput=document.getElementById("consent")
      const checkvalue=checkinput.checked;
      if(checkvalue!==true){
@@ -48,9 +53,12 @@ function StartPage() {
                   <span className="heading  text-2xl max-sm:text-3xl">This Is how EngageBud</span>
                   <span className="heading text-2xl max-sm:text-3xl">looks like in action!</span>
                   </div>
-                  {/* <div className="" data-required="joe@gmail.com"> */}
-                  <input type="text"  className="input-box vertical-space"  placeholder="Email" onChange={(e)=>setEmail(e.target.value)}/>
-                  <input type="text"  className="input-box  vertical-space" placeholder="Phone number" onChange={(e)=>setNumber(e.target.value)}/>
+            
+                  <input type="email"   pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                 required className="input-box vertical-space"  placeholder="Email" onChange={(e)=>setEmail(e.target.value)}/>
+                  
+                  <input type="tel"  pattern="[+]{1}[0-9]{11,14}" required className="input-box  vertical-space" placeholder="Phone number" onChange={(e)=>setNumber(e.target.value)}/>
+                  
    
                   <div  className="check-box vertical-space">
                   <div className=" check-size">
@@ -65,7 +73,8 @@ function StartPage() {
                     </div>
                 </div>
 
-                <button className="button vertical-space" onClick={handleSubmit}>Try your luck</button>
+                <button type="submit" className="button vertical-space" onClick={handleSubmit}>Try your luck</button>
+                
                 <span className="terms vertical-space">*You can spin the wheel only once! *If you win, you can claim your coupan for 10 mins only!</span>
                 <div className='unlucky vertical-space'>
                 No, I don't feel lucky

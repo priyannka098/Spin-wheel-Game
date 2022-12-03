@@ -6,17 +6,17 @@
  background-attachment: fixed;
     height:100vh;
     display:flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    */
 }
 .screen3-parent-div{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    align-items: center;
-    width: 60%;
+    /* align-items: center; */
+    /* width: 60%; */
     height: 500px;
-    padding: 20px;
+    /* padding: 20px; */
 }
 .final-wheel-img{
     height:22rem;
@@ -26,7 +26,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 18rem;
 }
 .offers{
     font-size: 1.8rem;

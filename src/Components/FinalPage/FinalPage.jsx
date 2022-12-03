@@ -44,9 +44,14 @@ function FinalPage() {
   
   return (
     <>
-    <div className="Final-Page-Container">
-      <div className="screen3-parent-div">
-        <img src={require("../../Images/Screen3.png")} className=" final-wheel-img"></img>
+    <div className="Final-Page-Container max-sm:items-start items-center max-sm:justify-center md:justify-center ">
+      <div className="screen3-parent-div sm:items-center sm:max-md:w-9/10 max-sm:w-3/5 md:w-3/5">
+        <img src={require("../../Images/Screen3.png")} className=" final-wheel-img max-md:hidden"></img>
+        <img src={require("../../Images/tab-left-wheel.png")} className="wheel-img max-sm:hidden sm:max-md:block md:hidden"></img>
+        <div className='flex flex-col w-7/20 max-sm:w-full sm:max-md:w-1/2'>
+              <div className='hidden max-sm:flex justify-center  mb-10 '>
+              <img src={require("../../Images/top-wheel.png")} className=" mobile-wheel-img"></img>
+              </div>
 
         <div className='screen3-text-box'>
           <span className="congrats">Congrats! You Won:</span>
@@ -59,8 +64,9 @@ function FinalPage() {
           </div>
           <button className="screen3-button  vertical-space " onClick={closePanel}>Close Panel & Copy</button>
 
-          <span className="disclaim   vertical-space">*You can claim your coupan for 10 mo=inutes only!</span>
+          <span className="disclaim   vertical-space">*You can claim your coupon for 10 mo=inutes only!</span>
         </div>
+      </div>
       </div>
 
     </div>
