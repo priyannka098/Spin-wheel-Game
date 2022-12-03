@@ -29,9 +29,9 @@
     width: 18rem;
 }
 .offers{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    
+    text-align: center;
 }
  .offers-box{
     display: flex;

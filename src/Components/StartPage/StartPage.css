@@ -1,4 +1,4 @@
-.container{
+.start-container{
     background-image: url(/src/Images/bg-img.png);
 
   background-repeat:no-repeat;
@@ -6,20 +6,19 @@
  background-position:center center;
  background-attachment: fixed;
     height:100vh;
+    width: 100vw;
     display:flex;
-    justify-content: center;
-    align-items: center;
-    
-    
+    /* justify-content: center; */
+    /* align-items: center; */   
 }
 .parent-div{
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
-    align-items: center;
-    width: 65%;
-    height: 500px;
-    padding: 20px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* width: 65%; */
+    /* height: 500px; */
+    /* padding: 20px; */
     
 }
 .img-div{
@@ -48,7 +47,7 @@
   }
 
 .login-div{
-    width:35%; 
+    /* width:35%;  */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,4 +109,8 @@ margin-right: 0;
 .consent-box {
     display: flex;
     flex-direction: column;
+}
+.mobile-wheel-img{
+    height:10rem;
+
 }
