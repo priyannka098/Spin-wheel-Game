@@ -20,11 +20,12 @@ function GamePage() {
     wheel.style.transform = `rotate(${deviation}deg)`;
     
     let finalPos=0;
+    let move=0;
     if(deviation>30) {
-      let move=Math.floor(deviation/60);
+      move=Math.floor(deviation/60);
       finalPos+=move;
       if(deviation%60>30)
-        finalPos++;
+        finalPos+=1;
     }
     setOffer(offers[finalPos]);
     console.log(finalPos);
