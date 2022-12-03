@@ -64,7 +64,7 @@ function FinalPage() {
           </div>
           <button className="screen3-button  vertical-space " onClick={closePanel}>Close Panel & Copy</button>
 
-          <span className="disclaim   vertical-space">*You can claim your coupon for 10 mo=inutes only!</span>
+          <span className="disclaim   vertical-space">*You can claim your coupon for 10 minutes only!</span>
         </div>
       </div>
       </div>

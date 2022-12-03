@@ -14,16 +14,9 @@ function GamePage() {
   useEffect(()=>{
    wheel=document.getElementById('wheel-spin');
    wheel.addEventListener('transitionend', () => {
-    // Remove blur
-    // Enable button when spin is over
-    // startButton.style.pointerEvents = 'auto';
-    // Need to set transition to none as we want to rotate instantly
     wheel.style.transition = 'none';
-    // Calculate degree on a 360 degree basis to get the "natural" real rotation
-    // Important because we want to start the next spin from that one
-    // Use modulus to get the rest value from 360
     const deviation = deg % 360;
-    // Set the real rotation instantly without animation
+    
     wheel.style.transform = `rotate(${deviation}deg)`;
     
     let finalPos=0;
@@ -42,33 +35,23 @@ function GamePage() {
   },[])
 
    const handleSubmit=()=>{
-    // navigate('/FinalPage')
-    // Disable button during spin
-    // startButton.style.pointerEvents = 'none';
-    // Calculate a new rotation between 5000 and 10 000
     deg = Math.floor(5000 + Math.random() * 5000);
     // Set the transition on the wheel
     wheel.style.transition = 'all 5s ease-out';
     // Rotate the wheel
     wheel.style.transform = `rotate(${deg}deg)`;
-    // Apply the blur
+    
 
   };
-
- 
   return (
     <>
     <div className="Game-Page-Container">
       <div className="game-spin">
         <div className="game-spin">
-        <img src={require("../../Images/Screen2.png")} className="sm:h-96 max-sm:h-64" id='wheel-spin'></img>
+        <img src={require("../../Images/Screen2.png")} className="sm:h-96 max-sm:h-80" id='wheel-spin'></img>
         <img src={require("../../Images/Union.png")} className="union"></img>
         </div>
-    
-    
     <button className="spin" onClick={handleSubmit}>SPIN</button>
-
-  
     </div>
     </div>
     </>
