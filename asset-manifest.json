@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Spin-wheel-Game/static/css/main.394109ab.css",
-    "main.js": "/Spin-wheel-Game/static/js/main.9c9b4df8.js",
+    "main.css": "/Spin-wheel-Game/static/css/main.b9e4cf12.css",
+    "main.js": "/Spin-wheel-Game/static/js/main.3bb2d91b.js",
     "static/js/787.e179c7ad.chunk.js": "/Spin-wheel-Game/static/js/787.e179c7ad.chunk.js",
     "static/media/Screen2.png": "/Spin-wheel-Game/static/media/Screen2.5687dc7ca5140ab594a6.png",
     "static/media/bg-img.png": "/Spin-wheel-Game/static/media/bg-img.0108e8ddeb0307479d23.png",
@@ -11,12 +11,12 @@
     "static/media/top-wheel.png": "/Spin-wheel-Game/static/media/top-wheel.57db63af6aedddb48bc0.png",
     "index.html": "/Spin-wheel-Game/index.html",
     "static/media/Poppins-VariableFont_wght.ttf": "/Spin-wheel-Game/static/media/Poppins-VariableFont_wght.31d6cfe0d16ae931b73c.ttf",
-    "main.394109ab.css.map": "/Spin-wheel-Game/static/css/main.394109ab.css.map",
-    "main.9c9b4df8.js.map": "/Spin-wheel-Game/static/js/main.9c9b4df8.js.map",
+    "main.b9e4cf12.css.map": "/Spin-wheel-Game/static/css/main.b9e4cf12.css.map",
+    "main.3bb2d91b.js.map": "/Spin-wheel-Game/static/js/main.3bb2d91b.js.map",
     "787.e179c7ad.chunk.js.map": "/Spin-wheel-Game/static/js/787.e179c7ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.394109ab.css",
-    "static/js/main.9c9b4df8.js"
+    "static/css/main.b9e4cf12.css",
+    "static/js/main.3bb2d91b.js"
   ]
 }
